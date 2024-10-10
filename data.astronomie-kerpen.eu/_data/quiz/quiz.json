@@ -1,0 +1,463 @@
+[
+    {
+        "id": 1,
+        "type": "select",
+        "question": "Du bist auf dem Neptun unterwegs und dir wird kalt. Ist ja auch kein Wunder, schließlich ist er im Durchschnitt etwa –200 Grad Celsius kalt. Doch plötzlich kommt ein Sturm auf. Aber was ist das? Der ist ja viel stärker als der Wind auf der Erde! Was ist der Spitzenwert der Windgeschwindigkeit von Neptun? ",
+        "answers": {
+            "1": "400 km/h",
+            "2": "2200 km/h",
+            "3": "6400 km/h",
+            "4": "12200 km/h"
+        },
+        "right_answer": 2,
+        "joker": [1, 4]
+    },
+    {
+        "id": 2,
+        "type": "select",
+        "question": "Du fliegst weiter zum Mars und willst dort landen. Du stellst fest: Der ist ja viel kleiner als die Erde! Dann ist er doch bestimmt auch leichter als die Erde, oder?",
+        "tip": "Nutze die Formel m<sub>Mars</sub> = &rho;<sub>Mars</sub> * 1&#8531; * &pi; * r<sup>3</sup><sub>Mars</sub>",
+        "answers": {
+            "1": "Der Mars besitzt 60.2% der Masse der Erde.",
+            "2": "Der Mars besitzt 40.9% der Masse der Erde.",
+            "3": "Der Mars besitzt 30.6% der Masse der Erde.",
+            "4": "Der Mars besitzt 10.7% der Masse der Erde."
+        },
+        "right_answer": 4,
+        "joker": [1, 2]
+    },
+    {
+        "id": 3,
+        "type": "select",
+        "question": "Jupiter! Der fünfte Planet unseres Sonnensystems ist ein Gasriese, bekannt für seine vielen Monde. Aber was würde passieren, wenn Jupiter seine 95 Monde nicht mehr hätte?",
+        "answers": {
+            "1": "Er würde aus dem Gleichgewicht kommen und das ganze Sonnensystem durcheinanderbringen.",
+            "2": "Er würde ins Trudeln geraten.",
+            "3": "Er würde Saturn zerstören.",
+            "4": "Nichts."
+        },
+        "right_answer": 4,
+        "joker": [1, 3]
+    },
+    {
+        "id": 4,
+        "type": "select",
+        "question": "Ein Schwarzes Loch. Den Begriff hat jeder von uns sicher schon mal gehört. Bei einem Schwarzen Loch handelt es sich um ein Phänomen im Weltall. Bei einem Schwarzen Loch wird die Zeit und der Raum gekrümmt. Alles wird angezogen und sogar Licht verschluckt. Ein Schwarzes Loch kann man nicht sehen. Aber wenn ein Schwarzes Loch alles anzieht, was würde geschehen, wenn anstelle der Sonne plötzlich ein Schwarzes Loch (mit derselben Masse) da wäre?",
+        "answers": {
+            "1": "Nur der Merkur würde eingesogen werden.",
+            "2": "Nichts.",
+            "3": "Wir würden eigesogen werden.",
+            "4": "Nichts, es würde lediglich nach einigen Minuten kalt und dunkel werden, Leben unmöglich."
+        },
+        "right_answer": 4,
+        "joker": [1, 2]
+    },
+    {
+        "id": 5,
+        "type": "select",
+        "question": "Die Erde kreist, wie auch alle anderen Planeten, um die Sonne. Aber wie schnell eigentlich?",
+        "tip": "Du brauchst eine Formel, die Zeit, die die Erde benötigt, um die Sonne zu umrunden (in Stunden!), &pi; den Radius und noch etwas.",
+        "answers": {
+            "1": "106871,5309 km/h",
+            "2": "50000,3526 km/h",
+            "3": "999569,455 km/h",
+            "4": "19463,2642 km/h"
+        },
+        "right_answer": 1,
+        "joker": [3, 4]
+    },
+    {
+        "id": 6,
+        "type": "select",
+        "question": "Der Halleysche Komet braucht mehrere Jahre für einen Umlauf zwischen Sonne und Erde. Was würde passieren, wenn er wieder bei uns vorbeikommt?",
+        "answers": {
+            "1": "Er würde durch die Atmosphäre fliegen und verglühen.",
+            "2": "Er würde durch die Atmosphäre fliegen und die gesamte Bevölkerung der Erde auslöschen.",
+            "3": "Er würde durch die Atmosphäre fliegen und, abgesehen von den kleineren Tieren, alles Leben auslöschen.",
+            "4": "Nichts, wir würden lediglich etwas Einmaliges und Spektakuläres sehen."
+        },
+        "right_answer": 4,
+        "joker": [2, 3]
+    },
+    {
+        "id": 7,
+        "type": "picture_question",
+        "question": "Was ist das?",
+        "picture": "https://data.astronomie-kerpen.eu/media/images/quiz/7.jpg",
+        "answers": {
+            "1": "Sonnenfleck",
+            "2": "Etwas, dass so ähnlich wie eine Erkältung ist",
+            "3": "Schwarze Löcher",
+            "4": "Erste Anzeichen für das Ende der Erde"
+        },
+        "right_answer": 1,
+        "joker": [2, 4]
+    },
+    {
+        "id": 8,
+        "type": "select",
+        "question": "Welchen Planeten-Durchmesser bekommt man raus, wenn man von dem Durchmesser der Erde, durch den Durchmesser der Venus dividiert, mit der Anzahl von Saturns Monden (95) multipliziert und dann durch den Sonnenabschnitt von der Sonne subtrahiert. Multipliziere mit dem Sonnenabstand vom Neptun ohne die Nullen in der Zahl. Lasse die Stellen nach dem Komma weg. Dividiere durch die verfünfachte Anzahl der Monde vom Mars. Zu guter Letzt subtrahiere 276,5.",
+        "answers": {
+            "1": "Merkur",
+            "2": "Venus",
+            "3": "Erde",
+            "4": "Mars"
+        },
+        "right_answer": 1,
+        "joker": [2, 4]
+    },
+    {
+        "id": 9,
+        "type": "select",
+        "question": "Worum kreisen Planeten?",
+        "answers": {
+            "1": "Um die Sonne",
+            "2": "Um den schwersten Körper der Galaxie",
+            "3": "Um ein Schwarzes Loch",
+            "4": "Um den gemeinsamen Schwerpunkt"
+        },
+        "right_answer": 4,
+        "joker": [1, 2]
+    },
+    {
+        "id": 10,
+        "type": "select",
+        "question": "Auf der Erde kennen wir sie aus Sandwüsten: Dünen. Aber gibt es sie auch auf anderen Planeten und wenn ja, auf welchen?",
+        "answers": {
+            "1": "Es gibt sie auf keinem Planet.",
+            "2": "Es gibt sie nur auf der Erde.",
+            "3": "Es gibt sie nur auf Planeten, die nah genug an der Sonne sind.",
+            "4": "Es gibt sie auch auf dem Mars."
+        },
+        "right_answer": 4,
+        "joker": [1, 3]
+    },
+    {
+        "id": 11,
+        "type": "select",
+        "question": "Wie lange dauert es, bis das Licht der Sonne von ihrem Kern bis an ihre äußerste Schale kommt?",
+        "answers": {
+            "1": "Eine Stunde",
+            "2": "26 Tage",
+            "3": "Hundert Jahre",
+            "4": "Über 10.000 Jahre"
+        },
+        "right_answer": 4,
+        "joker": [2, 3]
+    },
+    {
+        "id": 12,
+        "type": "select",
+        "question": "Gibt es im Weltraum Gesetze?",
+        "answers": {
+            "1": "Nein",
+            "2": "Ja, die Newtonschhone Gesetze",
+            "3": "Ja, die Newtonschen Gesetze",
+            "4": "Ja, das gesetz, dass Raumfahrer keinen Abfall im Weltraum hinterlassen dürfen"
+        },
+        "right_answer": 3,
+        "joker": [1, 4]
+    },
+    {
+        "id": 13,
+        "type": "select",
+        "question": "Wie viele Kilometer beträgt der Äquatordurchmesser des Mars?",
+        "answers": {
+            "1": "7134 KM",
+            "2": "6794 KM",
+            "3": "5961 KM",
+            "4": "7379 KM"
+        },
+        "right_answer": 2,
+        "joker": [3, 4]
+    },
+    {
+        "id": 14,
+        "type": "select",
+        "question": "Welchen Durchmesser erhält man, wenn man die Durchmesser der Monde des Mars addiert?",
+        "answers": {
+            "1": "46.248 KM",
+            "2": "58.942 KM",
+            "3": "34.933 KM",
+            "4": "16.821 KM"
+        },
+        "right_answer": 3,
+        "joker": [2, 4]
+    },
+    {
+        "id": 15,
+        "type": "select",
+        "question": "Wie weit ist der Mars von der Sonne entfernt?",
+        "answers": {
+            "1": "226,4 Millionen KM",
+            "2": "227,9 Millionen KM",
+            "3": "226,0 Millionen KM",
+            "4": "228,2 Millionen KM"
+        },
+        "right_answer": 2,
+        "joker": [1, 3]
+    },
+    {
+        "id": 16,
+        "type": "select",
+        "question": "Wie heißen die Monde des Mars?",
+        "answers": {
+            "1": "Demos und Phomos",
+            "2": "Damos und Phobos",
+            "3": "Deimos und Phobos",
+            "4": "Dimos und Phomos"
+        },
+        "right_answer": 3,
+        "joker": [1, 2]
+    },
+    {
+        "id": 17,
+        "type": "select",
+        "question": "Wie viele Monde hat der Jupiter? (Stand: Frühjahr 2024)",
+        "answers": {
+            "1": "90",
+            "2": "95",
+            "3": "88",
+            "4": "94"
+        },
+        "right_answer": 2,
+        "joker": [3, 4]
+    },
+    {
+        "id": 18,
+        "type": "select",
+        "question": "Wie weit ist der Jupiter von der Sonne entfernt?",
+        "answers": {
+            "1": "779 Millionen KM",
+            "2": "778 Millionen KM",
+            "3": "780 Millionen KM",
+            "4": "777 Millionen KM"
+        },
+        "right_answer": 1,
+        "joker": [2, 4]
+    },
+    {
+        "id": 19,
+        "type": "select",
+        "question": "Wie wir alle wissen, ist der Jupiter unheimlich groß. Aber wie oft passt die Erde in den Jupiter hinein?",
+        "answers": {
+            "1": "1000 mal",
+            "2": "1100 mal",
+            "3": "1200 mal",
+            "4": "1300 mal"
+        },
+        "right_answer": 4,
+        "joker": [1, 3]
+    },
+    {
+        "id": 20,
+        "type": "select",
+        "question": "Die Galileischen Monde sind die größten Monde des Jupiters und wurden im Jahr 1610 von dem italienischen Universalgelehrten Galileo Galilei entdeckt. Wie viele Monde sind das?",
+        "answers": {
+            "1": "2",
+            "2": "3",
+            "3": "4",
+            "4": "6"
+        },
+        "right_answer": 3,
+        "joker": [1, 2]
+    },
+    {
+        "id": 21,
+        "type": "select",
+        "question": "Wie heißt der größte Galileische Mond?",
+        "answers": {
+            "1": "Europa",
+            "2": "Io",
+            "3": "Callisto",
+            "4": "Ganymed"
+        },
+        "right_answer": 4,
+        "joker": [2, 3]
+    },
+    {
+        "id": 22,
+        "type": "select",
+        "question": "Wie viele Planeten und Zwergplaneten gehören zu unserem Sonnensystem?",
+        "answers": {
+            "1": "9",
+            "2": "11",
+            "3": "8",
+            "4": "13"
+        },
+        "right_answer": 4,
+        "joker": [1, 3]
+    },
+    {
+        "id": 23,
+        "type": "select",
+        "question": "Wie viele Monde hat unser Sonnensystem insgesamt? (Stand: Frühjahr 2024)",
+        "answers": {
+            "1": "ca. 150",
+            "2": "ca. 130",
+            "3": "ca. 170",
+            "4": "ca. 200"
+        },
+        "right_answer": 3,
+        "joker": [1, 4]
+    },
+    {
+        "id": 24,
+        "type": "picture_question",
+        "question": "Welche Sternbilder sind hier abgebildet?",
+        "picture": "https://data.astronomie-kerpen.eu/media/images/quiz/24.jpg",
+        "answers": {
+            "1": "Skorpion und Stier",
+            "2": "Widder und Krebs",
+            "3": "Waage und Stier",
+            "4": "Es gibt diese Sternbilder nicht."
+        },
+        "right_answer": 2,
+        "joker": [1, 4]
+    },
+    {
+        "id": 25,
+        "type": "picture_question",
+        "question": "Auf dem folgenden Bild wird das Sternbild Adler gezeigt. Einer der Sterne ist besonders groß und gelb gezeichnet. Wie heißt dieser Stern?",
+        "picture": "https://data.astronomie-kerpen.eu/media/images/quiz/25.jpg",
+        "answers": {
+            "1": "Beteigeuze",
+            "2": "Vega",
+            "3": "Altair",
+            "4": "Aldebaran"
+        },
+        "right_answer": 3,
+        "joker": [2, 4]
+    },
+    {
+        "id": 26,
+        "type": "picture_question",
+        "question": "Hier sind zwei Sternbilder zu sehen, aber welches zeigt das Sternbild Löwe?",
+        "picture": "https://data.astronomie-kerpen.eu/media/images/quiz/26.jpg",
+        "answers": {
+            "1": "Das erste (oben)",
+            "2": "Das zweite (unten)",
+            "3": "Keins von beiden",
+            "4": "Beide sind möglich"
+        },
+        "right_answer": 2,
+        "joker": [1, 4]
+    },
+    {
+        "id": 27,
+        "type": "select",
+        "question": "Warum merken wir nicht, dass sich die Erde mit einer Geschwindigkeit von mehreren hunderttausend km/h durch das Weltall bewegt?",
+        "answers": {
+            "1": "Weil sich die Erde gar nicht bewegt",
+            "2": "Weil wir uns mit der gleichen Geschwindigkeit wie die Erde fortbewegen",
+            "3": "Weil wir an die Geschwindigkeit gewohnt sind",
+            "4": "Weil die Luft die Kräfte abfängt"
+        },
+        "right_answer": 2,
+        "joker": [1, 4]
+    },
+    {
+        "id": 28,
+        "type": "select",
+        "question": "Der Jupiter hat sehr viele Monde, die 4 Galileischen Monde haben wir bereits kennengelernt. Aber welchen Durchmesser hat der größte Jupiter-Trabant?",
+        "answers": {
+            "1": "3457 KM",
+            "2": "6421 KM",
+            "3": "5262 KM",
+            "4": "7682 KM"
+        },
+        "right_answer": 3,
+        "joker": [1, 2]
+    },
+    {
+        "id": 29,
+        "type": "select",
+        "question": "In unserem Sonnensystem gibt es insgesamt 5 Zwergplaneten. Zwergplaneten haben ähnliche Eigenschaften wie andere Planeten, nur sind sie so klein, dass sie nicht als Planet gelten. Welcher ist der größte Zwergplanet in unserem Sonnensystem?",
+        "answers": {
+            "1": "Merkur",
+            "2": "Ceres",
+            "3": "Eris",
+            "4": "Pluto"
+        },
+        "right_answer": 4,
+        "joker": [1, 3]
+    },
+    {
+        "id": 30,
+        "type": "select",
+        "question": "Die der Milchstraße am nächsten gelegende große Galaxie ist die Andromeda-Galaxie. Aber wie weit ist sie von uns ungefähr entfernt?",
+        "answers": {
+            "1": "2.500.000 Lichtjahre",
+            "2": "3.000.000 Lichtjahre",
+            "3": "3.500.000 Lichtjahre",
+            "4": "4.000.000 Lichtjahre"
+        },
+        "right_answer": 1,
+        "joker": [2, 4]
+    },
+    {
+        "id": 31,
+        "type": "select",
+        "question": "Wie heißt das Schwarze Loch im Zentrum der Milchstraße?",
+        "answers": {
+            "1": "TON 618",
+            "2": "Sagittarius A*",
+            "3": "NGC 7727",
+            "4": "Gaia BH1"
+        },
+        "right_answer": 2,
+        "joker": [3, 4]
+    },
+    {
+        "id": 32,
+        "type": "select",
+        "question": "Welcher Mensch war der erste im Weltraum?",
+        "answers": {
+            "1": "James Irwin",
+            "2": "Marcus Wandt",
+            "3": "Juri Gagarin",
+            "4": "Shannon Walker"
+        },
+        "right_answer": 2,
+        "joker": [1, 4]
+    },
+    {
+        "id": 33,
+        "type": "select",
+        "question": "Wann war die letzte Supernova, die wir miterlebt haben?",
+        "answers": {
+            "1": "1987",
+            "2": "Es gab noch keine, es wird sie Berechnungen zufolge erst im Jahr 2300 geben.",
+            "3": "2010",
+            "4": "1200"
+        },
+        "right_answer": 1,
+        "joker": [2, 4]
+    },
+    {
+        "id": 34,
+        "type": "select",
+        "question": "Urknall. Den Begriff kennen wir alle. Beim Urknall dehnte sich das Universum aus. Aber wie groß war es am Anfang?",
+        "answers": {
+            "1": "Gar nichts von dem",
+            "2": "So groß wie ein Atom",
+            "3": "So groß wie ein Atomkern",
+            "4": "So groß wie die Erde"
+        },
+        "right_answer": 1,
+        "joker": [2, 4]
+    },
+    {
+        "id": 35,
+        "type": "select",
+        "question": "An welchem Tag wurde der Planet Neptun entdeckt?",
+        "answers": {
+            "1": "23.09.1846",
+            "2": "12.01.1903",
+            "3": "18.07.1943",
+            "4": "27.05.1908"
+        },
+        "right_answer": 1,
+        "joker": [2, 3]
+    }
+]

@@ -1,0 +1,137 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vmax;
+    font-family: 'Roboto', sans-serif;
+}
+
+.frontheading {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.frontheading h1 {
+    font-size: 85px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.content {
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+.link:hover {
+    color: black;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 200ms ease-in-out;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    height: 200px;
+    background-color: #1d2229;
+    position: sticky;
+}
+
+footer .link {
+    color: white !important;
+}
+
+.footer-line {
+    font-size: 15px;
+}
+
+@media(max-width: 600px) {
+    .subtitle {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 500px) {
+    .subtitle {
+        font-size: 45px;
+    }
+
+    .frontheading h1 {
+        font-size: 70px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .content {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+@media(max-width: 400px) {
+    .subtitle {
+        font-size: 35px;
+    }
+
+    .frontheading h1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 350px) {
+    .content {
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .frontheading h1 {
+        font-size: 55px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .footer-line {
+        font-size: 12px;
+    }
+}
