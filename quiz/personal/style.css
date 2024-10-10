@@ -1,0 +1,167 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vmax;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: rgb(245, 245, 245);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    justify-content: space-between;
+}
+
+.userline {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.logout-link {
+    text-decoration: none;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 15px;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+main {
+    margin: 50px;
+}
+
+.quiz {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    width: 120px;
+    transition: background-color 0.4s;
+    margin: 16px;
+}
+
+.quiz:hover {
+    background-color: #2773a5;
+    transition: background-color 0.4s;
+}
+
+.grey {
+    background: #a09d9d;
+    color: #000000;
+}
+
+.grey:hover {
+    background-color: #615f5f;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    height: 200px;
+    background-color: #1d2229;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .link {
+    color: white !important;
+}
+
+.footer-line {
+    font-size: 15px;
+}
+
+@media(max-width: 1600px) {
+    footer {
+        position: relative;
+    }
+}
+
+@media(max-width: 1000px) {
+    main {
+        margin: 30px;
+    }
+}
+
+@media(max-width: 750px) {
+    header {
+        height: 50px;
+    }
+}
+
+@media(max-width: 680px) {
+    main {
+        margin: 15px;
+    }
+
+    .quiz {
+        height: 50px;
+        width: 110px;
+        font-size: 16
+    }
+}
+
+@media(max-width: 610px) {
+    main {
+        margin: 5px;
+    }
+}
+
+@media(max-width: 500px) {
+    .userline {
+        font-size: 30px;
+    }
+
+    .quiz {
+        height: 5vmax;
+        width: 90vmin;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 400px) {
+    .userline {
+        font-size: 28px;
+    }
+
+    .logout {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 300px) {
+    .footer-line {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 290px) {
+    .logout {
+        font-size: 12px;
+    }
+}
